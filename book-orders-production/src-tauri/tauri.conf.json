@@ -1,0 +1,91 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Maqtabati - إدارة طلبات الكتب",
+  "version": "1.0.0",
+  "identifier": "com.maqtabati.book-orders",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:3000",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../.next"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Maqtabati - إدارة طلبات الكتب المدرسية",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 1024,
+        "minHeight": 768,
+        "center": true,
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": true,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "macOSPrivateApi": true
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "nsis": {
+        "installerIcon": "icons/icon.ico",
+        "uninstallerIcon": "icons/icon.ico",
+        "installMode": "perUser",
+        "allowToChangeInstallPath": true,
+        "createDesktopShortcut": "always",
+        "createStartMenuShortcut": "always",
+        "shortcutName": "Maqtabati",
+        "licenseFile": null,
+        "headerImage": null
+      },
+      "webviewInstallMode": {
+        "type": "embedBootstrapper"
+      }
+    },
+    "externalBin": [],
+    "copyright": "© 2026 Maqtabati",
+    "category": "Business",
+    "shortDescription": "إدارة وتجميع طلبات الكتب المدرسية",
+    "longDescription": "تطبيق مكتبي لإدارة وتجميع طلبات الكتب المدرسية لمختلف المستويات الدراسية عبر مؤسسات تعليمية متعددة، مع تصدير التقارير بصيغ PDF و Excel.",
+    "deb": {
+      "depends": []
+    },
+    "macOS": {
+      "entitlements": null,
+      "exceptionDomain": "",
+      "frameworks": [],
+      "providerShortName": "Maqtabati",
+      "signingIdentity": null
+    }
+  },
+  "plugins": {
+    "sql": {
+      "preload": []
+    },
+    "fs": {
+      "preload": []
+    },
+    "dialog": {
+      "preload": []
+    },
+    "opener": {
+      "preload": []
+    },
+    "shell": {
+      "preload": []
+    }
+  }
+}

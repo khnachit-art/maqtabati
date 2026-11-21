@@ -1,0 +1,105 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  // يدعم SQLite للتطوير المحلي و PostgreSQL للإنتاج
+  provider = env("DATABASE_PROVIDER") ?? "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  username  String   @unique
+  password  String
+  name      String
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+}
+
+model LicenseKey {
+  id            String   @id @default(cuid())
+  key           String   @unique
+  customerName  String
+  customerEmail String?
+  customerPhone String?
+  companyName   String?
+  status        String   @default("active") // active, expired, revoked, suspended
+  expiresAt     DateTime?
+  maxUsers      Int      @default(1)
+  maxSchools    Int      @default(10)
+  maxBooks      Int      @default(1000)
+  notes         String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  lastUsedAt    DateTime?
+  createdBy     Int?
+  creator       User?    @relation(fields: [createdBy], references: [id], onDelete: SetNull)
+  usages        LicenseUsage[]
+}
+
+model LicenseUsage {
+  id          String     @id @default(cuid())
+  licenseKeyId String
+  licenseKey  LicenseKey @relation(fields: [licenseKeyId], references: [id], onDelete: Cascade)
+  ipAddress   String?
+  userAgent   String?
+  action      String     // login, api_call, export, etc.
+  createdAt   DateTime   @default(now())
+}
+
+model Book {
+  id        Int         @id @default(autoincrement())
+  title     String
+  subject   String
+  level     String
+  schoolId  Int?
+  school    School?     @relation(fields: [schoolId], references: [id], onDelete: SetNull)
+  createdAt DateTime    @default(now())
+  items     OrderItem[]
+}
+
+model School {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  region    String
+  createdAt DateTime @default(now())
+  orders    Order[]
+  books     Book[]
+}
+
+model Customer {
+  id        Int      @id @default(autoincrement())
+  name      String
+  phone     String   @default("")
+  email     String   @default("")
+  address   String   @default("")
+  createdAt DateTime @default(now())
+  orders    Order[]
+  @@unique([name, phone])
+}
+
+model Order {
+  id           Int         @id @default(autoincrement())
+  schoolId     Int
+  school       School      @relation(fields: [schoolId], references: [id], onDelete: Cascade)
+  customerId   Int?
+  customer     Customer?   @relation(fields: [customerId], references: [id], onDelete: SetNull)
+  customerName String      @default("")
+  phone        String      @default("")
+  notes        String      @default("")
+  status       String      @default("pending")
+  cmdNumber    String?
+  createdAt    DateTime    @default(now())
+  items        OrderItem[]
+}
+
+model OrderItem {
+  id       Int    @id @default(autoincrement())
+  orderId  Int
+  order    Order  @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  bookId   Int
+  book     Book   @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  quantity Int
+  received Boolean?
+}

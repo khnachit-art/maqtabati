@@ -1,0 +1,10 @@
+﻿import { PrismaClient } from "@prisma/client";
+const prisma = new PrismaClient();
+const books = await prisma.book.groupBy({ by: ["level"], _count: { id: true }, orderBy: { level: "asc" } });
+console.log("Books by level:");
+books.forEach(b => console.log("  " + b.level + ": " + b._count.id));
+const total = await prisma.book.count();
+console.log("Total books: " + total);
+const schools = await prisma.school.findMany();
+console.log("Schools:", schools.map(s => s.name).join(", "));
+await prisma.$disconnect();

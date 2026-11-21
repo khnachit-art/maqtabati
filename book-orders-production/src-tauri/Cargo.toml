@@ -1,0 +1,40 @@
+[package]
+name = "book-orders"
+version = "1.0.0"
+description = "Maqtabati - إدارة طلبات الكتب المدرسية"
+authors = ["Maqtabati Team"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [
+  "fs-all",
+  "dialog-all",
+  "shell-all",
+  "opener-all",
+  "sql",
+  "process-all",
+  "notification-all",
+  "clipboard-all",
+] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+rusqlite = { version = "0.31", features = ["bundled"] }
+tauri-plugin-sql = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-shell = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-process = "2"
+tauri-plugin-notification = "2"
+tauri-plugin-clipboard-manager = "2"
+xlsx = "0.6"
+calamine = { version = "0.21", features = ["xlsx", "xls"] }
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+dirs = "5.0"
+base64 = "0.21"
+image = { version = "0.24", features = ["png", "jpeg"] }

@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  # قاعدة بيانات PostgreSQL للتطوير المحلي
+  db:
+    image: postgres:16-alpine
+    container_name: maqtabati-db
+    environment:
+      POSTGRES_DB: maqtabati
+      POSTGRES_USER: maqtabati
+      POSTGRES_PASSWORD: maqtabati_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U maqtabati -d maqtabati"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # التطبيق (اختياري - يمكن تشغيله محلياً بدون Docker)
+  app:
+    build: .
+    container_name: maqtabati-app
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: "postgresql://maqtabati:maqtabati_dev_password@db:5432/maqtabati"
+      DATABASE_PROVIDER: "postgresql"
+      JWT_SECRET: "dev-secret-change-in-production"
+      NEXTAUTH_URL: "http://localhost:3000"
+      NODE_ENV: "development"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    command: npm run dev
+
+volumes:
+  postgres_data:

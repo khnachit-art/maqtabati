@@ -1,0 +1,567 @@
+[
+    {
+        "title":  "Bibliobus",
+        "subject":  "Francais",
+        "level":  "1APG"
+    },
+    {
+        "title":  "Genie des Maths - Fichier de l\u0027apprenant",
+        "subject":  "Mathematiques",
+        "level":  "1APG"
+    },
+    {
+        "title":  "La Musique a ma portee",
+        "subject":  "Musique",
+        "level":  "1APG"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "1APG"
+    },
+    {
+        "title":  "Super Minds",
+        "subject":  "Anglais",
+        "level":  "1APG"
+    },
+    {
+        "title":  "Taoki et compagnie",
+        "subject":  "Francais",
+        "level":  "1APG"
+    },
+    {
+        "title":  "Archipel des Maths",
+        "subject":  "Mathematiques",
+        "level":  "1APIC"
+    },
+    {
+        "title":  "Informatique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "1APIC"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "1APIC"
+    },
+    {
+        "title":  "Roman d\u0027aventures",
+        "subject":  "Francais",
+        "level":  "1APIC"
+    },
+    {
+        "title":  "Etincelle Physique-Chimie",
+        "subject":  "Physique-Chimie",
+        "level":  "1BAC"
+    },
+    {
+        "title":  "Evoluer en Informatique",
+        "subject":  "Informatique",
+        "level":  "1BAC"
+    },
+    {
+        "title":  "Maxi Maths",
+        "subject":  "Mathematiques",
+        "level":  "1BAC"
+    },
+    {
+        "title":  "On Screen",
+        "subject":  "Anglais",
+        "level":  "1BAC"
+    },
+    {
+        "title":  "Archipel des Maths",
+        "subject":  "Mathematiques",
+        "level":  "1BAC-AR"
+    },
+    {
+        "title":  "L\u0027Archipel de Physique-Chimie",
+        "subject":  "Physique-Chimie",
+        "level":  "1BAC-AR"
+    },
+    {
+        "title":  "On Screen",
+        "subject":  "Anglais",
+        "level":  "1BAC-AR"
+    },
+    {
+        "title":  "Etincelle Physique-Chimie",
+        "subject":  "Physique-Chimie",
+        "level":  "1BAC-AT"
+    },
+    {
+        "title":  "On Screen",
+        "subject":  "Anglais",
+        "level":  "1BAC-AT"
+    },
+    {
+        "title":  "Panorama Maths",
+        "subject":  "Mathematiques",
+        "level":  "1BAC-SE"
+    },
+    {
+        "title":  "Etincelle Physique-Chimie",
+        "subject":  "Physique-Chimie",
+        "level":  "1BAC-SM"
+    },
+    {
+        "title":  "Etincelle Physique-Chimie",
+        "subject":  "Physique-Chimie",
+        "level":  "1BAC-SX"
+    },
+    {
+        "title":  "Maxi Maths",
+        "subject":  "Mathematiques",
+        "level":  "1BAC-SX"
+    },
+    {
+        "title":  "Bibliobus",
+        "subject":  "Francais",
+        "level":  "2APG"
+    },
+    {
+        "title":  "Genie des Maths - Fichier de l\u0027apprenant",
+        "subject":  "Mathematiques",
+        "level":  "2APG"
+    },
+    {
+        "title":  "La Musique a ma portee",
+        "subject":  "Musique",
+        "level":  "2APG"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "2APG"
+    },
+    {
+        "title":  "Roman d\u0027aventures",
+        "subject":  "Francais",
+        "level":  "2APG"
+    },
+    {
+        "title":  "Super Minds",
+        "subject":  "Anglais",
+        "level":  "2APG"
+    },
+    {
+        "title":  "Archipel des Maths",
+        "subject":  "Mathematiques",
+        "level":  "2APIC"
+    },
+    {
+        "title":  "Informatique et Robotique au College",
+        "subject":  "Informatique",
+        "level":  "2APIC"
+    },
+    {
+        "title":  "Nouveau monde",
+        "subject":  "Francais",
+        "level":  "2APIC"
+    },
+    {
+        "title":  "On Screen",
+        "subject":  "Anglais",
+        "level":  "2BAC"
+    },
+    {
+        "title":  "Candide",
+        "subject":  "Francais",
+        "level":  "2BAC-AF"
+    },
+    {
+        "title":  "Il etait une fois un vieux couple heureux",
+        "subject":  "Francais",
+        "level":  "2BAC-AF"
+    },
+    {
+        "title":  "On Screen",
+        "subject":  "Anglais",
+        "level":  "2BAC-AF"
+    },
+    {
+        "title":  "Candide",
+        "subject":  "Francais",
+        "level":  "2BAC-AR"
+    },
+    {
+        "title":  "Il etait une fois un vieux couple heureux",
+        "subject":  "Francais",
+        "level":  "2BAC-AR"
+    },
+    {
+        "title":  "On Screen",
+        "subject":  "Anglais",
+        "level":  "2BAC-AR"
+    },
+    {
+        "title":  "Maxi Maths",
+        "subject":  "Mathematiques",
+        "level":  "2BAC-PC"
+    },
+    {
+        "title":  "Student\u0027s Book / Workbook",
+        "subject":  "Anglais",
+        "level":  "2BAC-PC"
+    },
+    {
+        "title":  "Candide",
+        "subject":  "Francais",
+        "level":  "2BAC-SE"
+    },
+    {
+        "title":  "Panorama Maths",
+        "subject":  "Mathematiques",
+        "level":  "2BAC-SE"
+    },
+    {
+        "title":  "Il etait une fois un vieux couple heureux",
+        "subject":  "Francais",
+        "level":  "2BAC-SM"
+    },
+    {
+        "title":  "Student\u0027s Book / Workbook",
+        "subject":  "Anglais",
+        "level":  "2BAC-SM"
+    },
+    {
+        "title":  "Bibliobus",
+        "subject":  "Francais",
+        "level":  "3APG"
+    },
+    {
+        "title":  "La Musique a ma portee",
+        "subject":  "Musique",
+        "level":  "3APG"
+    },
+    {
+        "title":  "Mot de Passe",
+        "subject":  "Francais",
+        "level":  "3APG"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "3APG"
+    },
+    {
+        "title":  "Super Minds",
+        "subject":  "Anglais",
+        "level":  "3APG"
+    },
+    {
+        "title":  "Archipel des Maths",
+        "subject":  "Mathematiques",
+        "level":  "3APIC"
+    },
+    {
+        "title":  "La promesse de l\u0027aube",
+        "subject":  "Francais",
+        "level":  "3APIC"
+    },
+    {
+        "title":  "Bibliobus",
+        "subject":  "Francais",
+        "level":  "4APG"
+    },
+    {
+        "title":  "La Musique a ma portee",
+        "subject":  "Musique",
+        "level":  "4APG"
+    },
+    {
+        "title":  "Mot de Passe",
+        "subject":  "Francais",
+        "level":  "4APG"
+    },
+    {
+        "title":  "Super Minds",
+        "subject":  "Anglais",
+        "level":  "4APG"
+    },
+    {
+        "title":  "Bibliobus",
+        "subject":  "Francais",
+        "level":  "5APG"
+    },
+    {
+        "title":  "La Musique a ma portee",
+        "subject":  "Musique",
+        "level":  "5APG"
+    },
+    {
+        "title":  "Super Minds",
+        "subject":  "Anglais",
+        "level":  "5APG"
+    },
+    {
+        "title":  "La Musique a ma portee",
+        "subject":  "Musique",
+        "level":  "6APG"
+    },
+    {
+        "title":  "Moi, Touria Chaoui",
+        "subject":  "Francais",
+        "level":  "6APG"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "6APG"
+    },
+    {
+        "title":  "Super Minds",
+        "subject":  "Anglais",
+        "level":  "6APG"
+    },
+    {
+        "title":  "Textes, langages et litteratures",
+        "subject":  "Francais",
+        "level":  "7ème"
+    },
+    {
+        "title":  "Textes, langages et litteratures",
+        "subject":  "Francais",
+        "level":  "8ème"
+    },
+    {
+        "title":  "Textes, langages et litteratures",
+        "subject":  "Francais",
+        "level":  "9ème"
+    },
+    {
+        "title":  "I Wonder",
+        "subject":  "Anglais",
+        "level":  "CE1"
+    },
+    {
+        "title":  "Le tresor des mots",
+        "subject":  "Francais",
+        "level":  "CE1"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "CE1"
+    },
+    {
+        "title":  "TOP Mathematiques",
+        "subject":  "Mathematiques",
+        "level":  "CE1"
+    },
+    {
+        "title":  "TOP Sciences",
+        "subject":  "Sciences",
+        "level":  "CE1"
+    },
+    {
+        "title":  "I Wonder",
+        "subject":  "Anglais",
+        "level":  "CE2"
+    },
+    {
+        "title":  "Le tresor des mots",
+        "subject":  "Francais",
+        "level":  "CE2"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "CE2"
+    },
+    {
+        "title":  "TOP Mathematiques",
+        "subject":  "Mathematiques",
+        "level":  "CE2"
+    },
+    {
+        "title":  "TOP Sciences",
+        "subject":  "Sciences",
+        "level":  "CE2"
+    },
+    {
+        "title":  "I Wonder",
+        "subject":  "Anglais",
+        "level":  "CE6"
+    },
+    {
+        "title":  "Le tresor des mots",
+        "subject":  "Francais",
+        "level":  "CE6"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "CE6"
+    },
+    {
+        "title":  "TOP Mathematiques",
+        "subject":  "Mathematiques",
+        "level":  "CE6"
+    },
+    {
+        "title":  "TOP Sciences",
+        "subject":  "Sciences",
+        "level":  "CE6"
+    },
+    {
+        "title":  "I Wonder",
+        "subject":  "Anglais",
+        "level":  "CM1"
+    },
+    {
+        "title":  "Le tresor des mots",
+        "subject":  "Francais",
+        "level":  "CM1"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "CM1"
+    },
+    {
+        "title":  "TOP Mathematiques",
+        "subject":  "Mathematiques",
+        "level":  "CM1"
+    },
+    {
+        "title":  "TOP Sciences",
+        "subject":  "Sciences",
+        "level":  "CM1"
+    },
+    {
+        "title":  "I Wonder",
+        "subject":  "Anglais",
+        "level":  "CM2"
+    },
+    {
+        "title":  "Le tresor des mots",
+        "subject":  "Francais",
+        "level":  "CM2"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "CM2"
+    },
+    {
+        "title":  "TOP Mathematiques",
+        "subject":  "Mathematiques",
+        "level":  "CM2"
+    },
+    {
+        "title":  "TOP Sciences",
+        "subject":  "Sciences",
+        "level":  "CM2"
+    },
+    {
+        "title":  "Evoluer en Informatique",
+        "subject":  "Informatique",
+        "level":  "COLLEGE"
+    },
+    {
+        "title":  "I Wonder",
+        "subject":  "Anglais",
+        "level":  "CP"
+    },
+    {
+        "title":  "Le tresor des mots",
+        "subject":  "Francais",
+        "level":  "CP"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "CP"
+    },
+    {
+        "title":  "TOP Mathematiques",
+        "subject":  "Mathematiques",
+        "level":  "CP"
+    },
+    {
+        "title":  "TOP Sciences",
+        "subject":  "Sciences",
+        "level":  "CP"
+    },
+    {
+        "title":  "Le tresor des mots",
+        "subject":  "Francais",
+        "level":  "GS"
+    },
+    {
+        "title":  "Le tresor des mots",
+        "subject":  "Francais",
+        "level":  "MS"
+    },
+    {
+        "title":  "Calculator",
+        "subject":  "Mathematiques",
+        "level":  "PRIMAIRE"
+    },
+    {
+        "title":  "Les couleurs de l\u0027arc en ciel",
+        "subject":  "Francais",
+        "level":  "PS-MS-GS"
+    },
+    {
+        "title":  "Pour apprendre les majuscules",
+        "subject":  "Francais",
+        "level":  "PS-MS-GS"
+    },
+    {
+        "title":  "Archipel des Maths",
+        "subject":  "Mathematiques",
+        "level":  "TCS"
+    },
+    {
+        "title":  "Aux champs",
+        "subject":  "Francais",
+        "level":  "TCS"
+    },
+    {
+        "title":  "Etincelle Physique-Chimie",
+        "subject":  "Physique-Chimie",
+        "level":  "TCS"
+    },
+    {
+        "title":  "Informatique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "TCS"
+    },
+    {
+        "title":  "La boite a merveilles",
+        "subject":  "Francais",
+        "level":  "TCS"
+    },
+    {
+        "title":  "Le bourgeois gentilhomme",
+        "subject":  "Francais",
+        "level":  "TCS"
+    },
+    {
+        "title":  "On Screen",
+        "subject":  "Anglais",
+        "level":  "TCS"
+    },
+    {
+        "title":  "Workbook",
+        "subject":  "Anglais",
+        "level":  "TCS"
+    },
+    {
+        "title":  "Etincelle Physique-Chimie",
+        "subject":  "Physique-Chimie",
+        "level":  "TRC"
+    },
+    {
+        "title":  "On Screen",
+        "subject":  "Anglais",
+        "level":  "TRC"
+    },
+    {
+        "title":  "Robotique et Intelligence Artificielle",
+        "subject":  "Informatique",
+        "level":  "TRC"
+    }
+]
